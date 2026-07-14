@@ -1,0 +1,21 @@
+name = "RecordCompositions"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["RecordCompositions"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+autoImplicit = false
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.31.0"
+
+[[lean_lib]]
+name = "RecordCompositions"
+globs = ["RecordCompositions.+"]
