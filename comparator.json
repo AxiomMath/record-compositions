@@ -1,0 +1,23 @@
+{
+  "challenge_module": "RecordCompositions.problem",
+  "solution_module": "RecordCompositions.solution",
+  "theorem_names": [
+    "recBoundaries_zero_mem",
+    "recBoundaries_last_mem",
+    "N_eq_rhsBinom",
+    "N_eq_rhsRat",
+    "factorial_smul_Anc_eq",
+    "chi_Anc_eq",
+    "euler_values",
+    "euler_recurrence",
+    "rhsBinom_eq_rhsRat",
+    "wex_isDownUp",
+    "rc_worked_example"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}
